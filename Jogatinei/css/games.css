@@ -1,0 +1,58 @@
+section.games-list{
+    padding: 20px;
+}
+
+section.games-list h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-capa{
+    display: flex;
+    background-color: #333;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.game-cap:hover{
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.game-capa img{
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.game-info h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.game-info p{
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.game-info button{
+    background-color: #444;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.game-info button:hover{
+    background-color: #333;
+    transform: scale(1.05);
+}
